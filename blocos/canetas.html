@@ -1,0 +1,54 @@
+<section class="blk-canetas" id="canetas">
+  <div class="wrap blk-canetas__grid">
+    <div class="blk-canetas__cab" data-reveal>
+      <p class="blk-canetas__eyebrow">Para quem emagreceu com as canetas</p>
+      <h2 class="blk-canetas__titulo">O peso foi embora rápido. A firmeza não precisa ir junto.</h2>
+      <p class="blk-canetas__lead" data-acende>Quando a balança desce depressa, a pele e o músculo nem sempre acompanham. A clínica monta um protocolo para essa fase, em três frentes ao mesmo tempo.</p>
+    </div>
+    <ol class="blk-canetas__frentes">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-canetas__ico"><!--icone:batimento--></span>
+        <div><h3>Tônus muscular</h3><p>Devolver a força e a firmeza que a perda rápida de peso costuma levar, com estímulo como o da corrente russa.</p></div>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-canetas__ico"><!--icone:pele--></span>
+        <div><h3>Firmeza da pele</h3><p>Estímulo de colágeno para tratar a flacidez, com radiofrequência e outras tecnologias indicadas na avaliação.</p></div>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-canetas__ico"><!--icone:mulher--></span>
+        <div><h3>Contorno corporal</h3><p>Remodelar e valorizar a silhueta nova, região por região.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-canetas{padding-block:var(--sp-section)}
+.blk-canetas__grid{display:grid;gap:var(--sp-5)}
+.blk-canetas__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-canetas__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-canetas__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-canetas__frentes{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:f}
+.blk-canetas__frentes li{
+  display:flex;gap:var(--sp-3);align-items:flex-start;padding-block:var(--sp-4);
+  border-top:1px solid color-mix(in srgb,var(--pulse) 50%,transparent);
+}
+.blk-canetas__frentes li:last-child{border-bottom:1px solid color-mix(in srgb,var(--pulse) 50%,transparent)}
+.blk-canetas__ico{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:3rem;height:3rem;border-radius:50%;color:var(--brand);
+  border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent);
+}
+.blk-canetas__ico svg{width:1.5rem;height:1.5rem}
+.blk-canetas__frentes h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.5rem,3.5vw,1.9rem);line-height:1.1;color:var(--ink)}
+.blk-canetas__frentes p{margin:var(--sp-1,.4rem) 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-canetas__grid{grid-template-columns:1fr 1.1fr;gap:var(--sp-6,4rem);align-items:center}
+}
+</style>

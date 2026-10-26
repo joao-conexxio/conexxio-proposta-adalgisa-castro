@@ -1,0 +1,78 @@
+<section class="blk-posop" id="pos-operatorio">
+  <div class="wrap">
+    <div class="blk-posop__cab" data-reveal>
+      <p class="blk-posop__eyebrow">Recupera Você · pós-operatório</p>
+      <h2 class="blk-posop__titulo">A cirurgia termina no centro cirúrgico. A recuperação, não.</h2>
+      <p class="blk-posop__lead">Para quem acabou de passar por uma plástica, a clínica reúne três cuidados num só pacote, com dez sessões ao todo, para desinchar, cicatrizar bem e atravessar as primeiras semanas com mais conforto.</p>
+    </div>
+    <ol class="blk-posop__grade">
+      <li class="blk-posop__card" data-reveal style="--d:0ms">
+        <span class="blk-posop__num" data-count="5">5</span>
+        <span class="blk-posop__ico"><!--icone:gota--></span>
+        <h3>Drenagens linfáticas</h3>
+        <p>Ajudam o corpo a eliminar o líquido acumulado depois da cirurgia e reduzem o inchaço.</p>
+      </li>
+      <li class="blk-posop__card" data-reveal style="--d:120ms">
+        <span class="blk-posop__num" data-count="3">3</span>
+        <span class="blk-posop__ico"><!--icone:molecula--></span>
+        <h3>Sessões de ozônio</h3>
+        <p>Ação anti-inflamatória e apoio à cicatrização dos tecidos.</p>
+      </li>
+      <li class="blk-posop__card" data-reveal style="--d:240ms">
+        <span class="blk-posop__num" data-count="2">2</span>
+        <span class="blk-posop__ico"><!--icone:ultrassom--></span>
+        <h3>Sessões de ultrassom</h3>
+        <p>Favorecem a regeneração e a firmeza da região operada.</p>
+      </li>
+    </ol>
+    <div class="blk-posop__casa" data-reveal>
+      <span class="blk-posop__casa-ico"><!--icone:local--></span>
+      <p><strong>Nos primeiros dias, sair de casa pesa?</strong> A clínica também atende em domicílio. É só combinar pelo WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-posop{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 8%,var(--bg))}
+.blk-posop__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-posop__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:color-mix(in srgb,var(--pulse) 70%,var(--ink));
+}
+.blk-posop__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-posop__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-posop__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-posop__card{
+  position:relative;overflow:hidden;padding:var(--sp-4);
+  border-radius:var(--radius);background:var(--bg);
+  border:1px solid color-mix(in srgb,var(--pulse) 40%,transparent);
+}
+.blk-posop__card:nth-child(2){background:var(--brand);border-color:var(--brand)}
+.blk-posop__num{
+  display:block;font-family:var(--f-display);font-weight:500;
+  font-size:clamp(4.5rem,14vw,7rem);line-height:.9;color:var(--pulse);
+}
+.blk-posop__ico{position:absolute;top:var(--sp-4);right:var(--sp-4);width:2.2rem;height:2.2rem;color:var(--brand)}
+.blk-posop__ico svg{width:100%;height:100%}
+.blk-posop__card:nth-child(2) .blk-posop__ico{color:var(--pulse)}
+.blk-posop__card h3{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.6rem,4vw,2rem);line-height:1.1;color:var(--ink)}
+.blk-posop__card p{margin:var(--sp-2) 0 0;font-size:.98rem;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-posop__card:nth-child(2) h3{color:var(--bg)}
+.blk-posop__card:nth-child(2) p{color:color-mix(in srgb,var(--bg) 84%,transparent)}
+.blk-posop__casa{
+  display:flex;gap:var(--sp-3);align-items:flex-start;margin-top:var(--sp-4);
+  padding:var(--sp-3) var(--sp-4);border-radius:var(--radius);
+  border:1px dashed color-mix(in srgb,var(--brand) 40%,transparent);
+}
+.blk-posop__casa-ico{flex:none;width:1.8rem;height:1.8rem;color:var(--brand)}
+.blk-posop__casa-ico svg{width:100%;height:100%}
+.blk-posop__casa p{margin:0;color:color-mix(in srgb,var(--ink) 82%,transparent)}
+.blk-posop__casa strong{color:var(--ink)}
+@media (min-width:56rem){
+  .blk-posop__grade{grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}
+  .blk-posop__card{padding:var(--sp-5)}
+}
+</style>

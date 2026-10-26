@@ -1,0 +1,292 @@
+{
+  "slug": "adalgisa-castro",
+  "negocio": {
+    "nome": "Clínica Adalgisa Castro · Estética Avançada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5541997340484",
+    "unidades": [
+      {
+        "bairro": "Centro · Curitiba",
+        "endereco": "Av. Visconde de Guarapuava, 1708, 2º andar – Centro, Curitiba – PR, 80060-060",
+        "telefone": "(41) 99734-0484",
+        "horario": "Com hora marcada, pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#16224A",
+    "brand2": "#0C1430",
+    "ink": "#0E1329",
+    "bg": "#FAF8F3",
+    "pulse": "#C59E4C",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pós-operatório",
+            "href": "#pos-operatorio"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Centro · Curitiba",
+        "h1": "Contorno, firmeza e pele",
+        "lead": "Estética corporal e facial avançada desde 2005. Criolipólise, Heccus, laser CO2, drenagem e pós-operatório, em protocolos montados na avaliação.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "Desde 2005 · 4,7 no Google · Curitiba · ",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Criolipólise",
+          "Heccus",
+          "Corrente russa",
+          "Radiofrequência",
+          "Carboxiterapia",
+          "Hidrolipoclasia",
+          "Drenagem linfática",
+          "Laser CO2",
+          "Laser Lavieen",
+          "Microagulhamento com PDRN",
+          "Pós-operatório"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que vem antes da primeira sessão",
+        "itens": [
+          {
+            "valor": "2005",
+            "rotulo": "o ano em que a clínica começou"
+          },
+          {
+            "valor": "4,7",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "152",
+            "rotulo": "avaliações de pacientes",
+            "contar": 152
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Mais de vinte anos de estética avançada",
+        "citacao": "Avaliamos o que realmente te incomoda para indicar um protocolo feito para você.",
+        "autor": "Clínica Adalgisa Castro",
+        "texto": [
+          "A clínica atende homens e mulheres desde 2005, no 2º andar da Visconde de Guarapuava, no Centro. Nesse tempo a estética mudou de aparelho muitas vezes, mas o começo continua o mesmo: uma avaliação antes de qualquer protocolo.",
+          "Muitas vezes a resposta é somar duas tecnologias, como Heccus com corrente russa ou microagulhamento com PDRN, e acompanhar sessão a sessão. A casa acolhe a comunidade LGBTQ+, e quem precisa de drenagem no pós-operatório pode ser atendido em casa."
+        ],
+        "imagem": "midia/placa-2005.jpg",
+        "imagemAlt": "Selo da Clínica Adalgisa Castro, Estética Avançada, desde 2005, em dourado sobre azul-marinho"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "Corpo, rosto e recuperação. A avaliação define o que entra no seu plano e em que ordem.",
+        "itens": [
+          {
+            "nome": "Criolipólise",
+            "descricao": "Sucção e resfriamento de até −12 °C sobre a gordura localizada de abdômen, flancos, braços e culotes. Protocolo em aplicações, sem cortes.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Heccus + corrente russa",
+            "descricao": "Ultrassom de alta potência sobre a gordura localizada e estímulo elétrico para o músculo, no mesmo protocolo: reduz medidas e tonifica junto.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Radiofrequência corporal",
+            "descricao": "Aquece as camadas profundas da pele para estimular colágeno, tratar flacidez e suavizar a aparência da celulite.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Carboxiterapia",
+            "descricao": "Melhora a circulação e a oxigenação local, para celulite, firmeza e textura da pele.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Hidrolipoclasia",
+            "descricao": "Para gordura localizada em áreas definidas, conduzida em sessões e combinada com outras tecnologias quando a avaliação indica.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Drenagem linfática",
+            "descricao": "Reduz o inchaço e a retenção de líquido e devolve a sensação de leveza. Também no pós-operatório e em domicílio.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Laser CO2 e Laser Lavieen",
+            "descricao": "Para manchas, poros dilatados, linhas finas e textura do rosto, cada um indicado pelo tipo de pele e pelo objetivo.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Microagulhamento com PDRN",
+            "descricao": "Microcanais na pele que levam o PDRN mais fundo, para estimular colágeno e devolver viço e firmeza.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Ozonioterapia",
+            "descricao": "Cuidado complementar e integrativo, com ação antioxidante e apoio à oxigenação dos tecidos.",
+            "icone": "folha"
+          },
+          {
+            "nome": "Vasinhos e limpeza de pele",
+            "descricao": "Os cuidados de base que fazem diferença no resultado: pernas com menos vasinhos aparentes e pele limpa antes de qualquer protocolo facial.",
+            "icone": "spa"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/canetas.html"
+    },
+    {
+      "custom": "blocos/pos-operatorio.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como é começar aqui",
+        "lead": "Nenhum protocolo sai pronto da prateleira. O caminho é o mesmo para quem vem pelo corpo, pelo rosto ou pelo pós-operatório.",
+        "itens": [
+          {
+            "titulo": "Conversa pelo WhatsApp",
+            "texto": "Você conta o que te incomoda e a recepção marca a sua avaliação.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação na clínica",
+            "texto": "A região é avaliada de perto, para indicar o tratamento certo e descartar o que não faz sentido para você.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Protocolo e sessões",
+            "texto": "O plano diz quais tecnologias entram, quantas sessões e em que ritmo. As sessões acontecem no Centro, com hora marcada.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Acompanhamento",
+            "texto": "A cada etapa a clínica confere a resposta do corpo e ajusta o protocolo até o resultado aparecer.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas de quem vem pela primeira vez",
+        "itens": [
+          {
+            "p": "Preciso saber qual tratamento quero?",
+            "r": "Não. Na avaliação você mostra o que te incomoda e sai com a indicação do que tratar, com quais aparelhos e em quantas sessões."
+          },
+          {
+            "p": "A clínica atende homens?",
+            "r": "Sim. Gordura localizada, flacidez e cuidados com a pele são tratados em homens e mulheres."
+          },
+          {
+            "p": "Quando posso começar o pós-operatório?",
+            "r": "Quem libera é o seu cirurgião. Com a liberação, a clínica começa as drenagens e os demais cuidados, na clínica ou em casa."
+          },
+          {
+            "p": "Vocês atendem em domicílio?",
+            "r": "Sim, para drenagem e pós-operatório. Combine pelo WhatsApp e a recepção informa os valores."
+          },
+          {
+            "p": "Dá para combinar tecnologias?",
+            "r": "É o que a clínica mais faz: Heccus com corrente russa, microagulhamento com PDRN, criolipólise com drenagem. A combinação sai da avaliação."
+          },
+          {
+            "p": "Como eu agendo?",
+            "r": "Pelo WhatsApp (41) 99734-0484. A recepção encontra o melhor horário para a sua avaliação."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Centro de Curitiba, na Visconde de Guarapuava"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que você quer tratar. A recepção marca o seu horário na clínica.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pós-operatório",
+            "href": "#pos-operatorio"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Clínica Adalgisa Castro · Estética Facial e Corporal Avançada · Curitiba. Resultados variam de pessoa para pessoa; a indicação de cada procedimento é feita na avaliação."
+      }
+    }
+  ]
+}
